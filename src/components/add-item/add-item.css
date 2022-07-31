@@ -1,0 +1,15 @@
+.search__form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search__form .btn {
+    margin-left: 30px;
+}
+.search__form i {
+    margin-top: 4px;
+}
+
+
+

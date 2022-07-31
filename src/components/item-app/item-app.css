@@ -1,0 +1,54 @@
+.list__el {
+ width: 700px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+
+ font-size: 30px;
+ font-weight: 400;
+ border: 3px solid rgba(29, 133, 252, 0.333);
+ margin-top: 20px;
+ border-radius: 10px;
+}
+.list__attach {
+    border: 3px solid rgb(10, 107, 218);
+    font-weight: 500;
+    font-size: 32px;
+    color: #28a747;
+}
+.list__done {
+    border: 3px solid rgba(225, 239, 255, 0.2);
+    font-weight: 400;
+    font-size: 30px;
+    color: rgba(0, 54, 116, 0.2);
+    text-decoration: line-through;
+}
+.list__el span {
+    margin-left: 10px;
+}
+
+.list__img button {
+    width: 35px;
+    margin: 7px;
+    border-radius: 5px;
+}
+.list__content {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+}
+.list__option {
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    border-radius: 10px;
+    background-color: #28a747;;
+}
+.list__option i {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    color: aliceblue;
+  
+}

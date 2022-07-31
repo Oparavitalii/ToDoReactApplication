@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+.conatainer {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.app {
+    background: #2980B9;  
+    background: linear-gradient(to left, #FFFFFF, #9adff8c2, #72c2f7c0);
+    height: 100vh;
+}
